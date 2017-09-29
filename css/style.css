@@ -1,0 +1,394 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none
+}
+
+body {
+	background: #E2E2E2
+}
+
+.container {
+	width: 1200px;
+	margin: auto;
+	overflow: hidden
+}
+
+.navbar {
+	width: 100%;
+	height: 50px;
+    background: #FFF;
+    border-bottom: 2px solid #d4d4d4;
+    overflow: hidden;
+}
+
+.navbar .logo {
+    float: left;
+    width: 7%;
+    height: 50px;
+    font-size: 22px;
+    font-family: tahoma;
+    line-height: 50px;
+}
+
+.navbar .logo h2 {
+	font-weight: normal
+}
+
+.navbar .logo h2 a {
+	color: #333;
+}
+
+.navbar .nav {
+	float: left;
+	width: 79%
+}
+
+.navbar .nav ul {
+	width: 100%
+}
+
+.navbar .nav ul li {
+	display: inline-block;
+	width: 60px;
+	font-size: 17px;
+	font-family: arial;
+	text-align: center;
+	line-height: 50px;
+}
+
+.navbar .nav ul li a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	color: #555;
+	transition: background .4s ease
+}
+
+.navbar .nav ul li a:hover {
+	background: #EEE
+}
+
+.navbar .users {
+	float: left;
+	width: 14%
+}
+
+.navbar .users ul {
+	width: 100%
+}
+
+.navbar .users ul li {
+	display: inline-block;
+	width: 80px;
+	font-size: 17px;
+	font-family: arial;
+	text-align: center;
+	line-height: 50px;
+}
+
+.navbar .users ul li a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	color: #555;
+	transition: background .4s ease
+}
+
+.navbar .users ul li a:hover {
+    background: #EEE
+}
+
+/* Content Styles */
+
+.content {
+	width: 100%;
+	height: 100%;
+}
+
+.content .formBox {
+	width: 750px;
+	height: 400px;
+	background: #FFF;
+	margin: 100px auto 0;
+	text-align: center;
+	border-bottom: 2px solid #CCC;
+	overflow: auto;
+}
+
+.content .formBox h2 {
+	margin: 50px auto;
+	font-size: 35px;
+	font-family: tahoma;
+	font-weight: normal;
+}
+
+.content .formBox p {
+	width: 500px;
+	margin: 70px auto 0;
+	position: relative;
+}
+
+.content .formBox p .fa-link {
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+.content .formBox p input[type=url] {
+	width: 84.2%;
+	padding: 10px 10px 10px 28px;
+	border: 1px solid #AAA;
+	font-size: 16px;
+	border-radius: 3px;
+}
+
+.content .formBox p input[type=submit] {
+	width: 15%;
+	padding: 10px;
+	border: 1px solid #3498DB;
+	background: #3498DB;
+	border-radius: 3px;
+	font-size: 16px;
+	color: #FFF;
+	cursor: pointer
+
+}
+
+/* Login Styles */
+
+.content {
+	width: 100%;
+	height: 100%;
+}
+
+.RAL .loginBox {
+	width: 500px;
+	height: 400px;
+	background: #FFF;
+	margin: 100px auto 0;
+	text-align: center;
+	border-bottom: 2px solid #CCC;
+	overflow: auto;
+}
+
+.RAL .loginBox h2 {
+	margin: 50px auto;
+	font-size: 35px;
+	font-family: tahoma;
+	font-weight: normal;
+}
+
+.RAL .loginBox p {
+	width: 320px;
+	margin: 15px auto 0;
+	position: relative;
+}
+
+.RAL .loginBox p .fa{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.RAL .loginBox p input[type=text],
+.RAL .loginBox p input[type=email],
+.RAL .loginBox p input[type=password] {
+	width: 100%;
+	padding: 10px 10px 10px 28px;
+	border: 1px solid #AAA;
+	font-size: 16px;
+	border-radius: 3px;
+}
+
+.RAL .loginBox p input[type=submit] {
+	width: 100%;
+	padding: 10px;
+	background: #3498DB;
+	border: 1px solid #3498DB;
+	border-radius: 3px;
+	font-size: 16px;
+	color: #FFF;
+	cursor: pointer
+
+}
+
+.RAL .loginBox .reset {
+	font-size: 16px;
+	font-family: tahoma;
+	text-align: left;
+	color: #3498DB
+}
+
+/* Dashboard Styles */
+
+.titleBox {
+	width: 100%;
+	height: 150px;
+	background: #FFF;
+	margin-top: 10px;
+	border-bottom: 2px solid #CCC;
+	overflow: hidden;
+}
+
+.titleBox .img {
+	float: left;
+	width: 13%;
+	height: 100%;
+	position: relative;
+}
+
+.titleBox .img  .imgplace {
+	width: 100%;
+	height: 100%
+}
+
+.titleBox .img  .imgplace img {
+	width: 100%;
+	height: 100%
+} 
+
+.titleBox .username {
+	float: left;
+	width: 80%;
+	height: 100%
+}
+
+.titleBox .username h3 {
+	height: 100%;
+	font-size: 30px;
+	font-family: tahoma;
+	font-weight: normal;
+	line-height: 200px;
+	padding-left: 20px;
+}
+
+
+.table {
+	display: table;
+	width: 500px;
+	background: #FFF;
+	margin-top: 10px;
+}
+
+.table .table-row {
+	display: table-row;
+}
+
+.table .table-row .table-ceil {
+	display: table-cell;
+	border-bottom: 1px solid #b3b2b2;
+	padding: 10px;
+	font-family: tahoma;
+	font-size: 16px;
+}
+
+.table .table-row .table-ceil:nth-child(2),
+.table .table-row .table-ceil:nth-child(3),
+.table .table-row .table-ceil:nth-child(4) {
+	width: 100px;
+	border-left: 1px solid #b3b2b2;
+}
+
+.table .table-row .table-ceil > a {
+	color: #2980b9
+}
+
+
+/***** addition styles ****/
+
+.success {
+	width: 100%;
+	margin-top: 10px;
+	padding: 17px;
+	background: #01b388;
+	color: #FFF;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 18px;
+	font-family: tahoma;
+	overflow: hidden
+}
+
+.success .hidelink {
+	position: absolute;
+	left: -1000px;
+}
+
+.error {
+	width: 100%;
+	margin-top: 10px;
+	padding: 17px;
+	background: #e74c3c;
+	color: #FFF;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 18px;
+	font-family: tahoma
+}
+
+.fa-trash-o {
+	margin-left: 10px;
+	color: #e74c3c
+}
+
+
+.uploadBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    top: 0;
+}
+
+.uploadBox .la {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-family: tahoma;
+    line-height: 140px;
+    color: rgba(255, 255, 255, 0.91);
+    
+}
+
+.uploadBox .imginput {
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1000;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.fa-camera {
+    display: none
+}
+
+.uploadBox:hover .fa-camera {
+    display: inline
+}
+
+.loading {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 10001;
+	background: rgba(255,255,255,0.9);
+	text-align: center;
+}
+
+.loading > i {
+    font-size: 25px;
+    line-height: 161px;
+    color: #3498db;
+}
